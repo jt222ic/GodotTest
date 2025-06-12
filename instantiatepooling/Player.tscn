@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://0xyt6pto36kw"]
+
+[ext_resource type="Script" uid="uid://b1y8ja7qpuu3x" path="res://playerMain.gd" id="1_xhfnw"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_xhfnw")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 57.0
+offset_top = 30.0
+offset_right = 156.0
+offset_bottom = 61.0
+text = "HADOUKEN"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,8 @@
+{
+  "name": "Warrior",
+  "health": 120,
+  "attackPower": 15,
+  "defense": 5,
+  "skills": ["Slash", "Block"],
+  "Monster": "Warrior"
+}
